@@ -3,11 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>POPCAT CLASSIC</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #bdaa90;
+        }
+        .title {
+            width: 100%;
+            margin-top: 2em;
+            max-width: 600px;
+        }
+        .ccat-img {
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+            color: white;
+            font-size: 80px;
+            font-family: sans-serif;
+            -webkit-text-stroke: 3px black;
+            background-image: url('imgs/p.png');
+            background-position: bottom;
+            background-size: contain;
+            background-repeat: no-repeat;
+            flex-grow: 1;
+            user-select: none;
+        }
+    </style>
 </head>
 <body>
-        <div class="container">
-            <img class="title" src="imgs/popcat.svg" alt="POPCAT">
-            <div class="ccat-img" id="p"> 0227</div>
-        </div>
+<div class="container">
+    <div><img class="title" src="imgs/popcat.svg" alt="POPCAT"></div>
+    <div class="ccat-img" id="p">0227</div>
+
+</div>
 </body>
 </html>
